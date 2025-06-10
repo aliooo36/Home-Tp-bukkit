@@ -1,0 +1,32 @@
+name: HomeTp
+main: momo36.homeTp.HomeTp
+version: 1.0
+api-version: "1.21"
+description: Simple /home, /sethome and /tpa commands
+author: aliooo36
+
+commands:
+  sethome:
+    description: Save your current location as home
+    usage: /sethome
+    permission: hometp.sethome
+  home:
+    description: Teleport to your saved home
+    usage: /home
+    permission: hometp.home
+  tpa:
+    description: Teleport to another player
+    usage: /tpa <player>
+    permission: hometp.tpa
+
+permissions:
+  hometp.sethome:
+    description: Allows setting a home
+    default: true
+  hometp.home:
+    description: Allows teleporting to your home
+    default: true
+  hometp.tpa:
+    description: Allows teleporting to another player
+    default: true
+
