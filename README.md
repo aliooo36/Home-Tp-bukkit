@@ -10,7 +10,7 @@ I made this plugin for my own peace of mind regarding what exactly I'm putting i
 - `/home` – Instantly teleport to your home  
 - `/tpa <player>` – Teleport directly to another player (no request system as of 1.0)
 
-## 🔐 Permissions
+## Permissions
 
 | Command     | Permission        | Description                    |
 |-------------|-------------------|--------------------------------|
@@ -27,15 +27,14 @@ I made this plugin for my own peace of mind regarding what exactly I'm putting i
 1. Place the `.jar` file into your server’s `plugins/` directory  
 2. Restart or reload the server
 
-## 🧩 Compatibility
+## Compatibility
 
 - Tested with **PaperMC 1.20+**
 - Should work on any modern Bukkit/Spigot-based server
 
-## 🔗 Source Code
+## Source Code
 
-This plugin is open-source.  
-Feel free to contribute or fork: [Home-Tp-bukkit](https://github.com/aliooo36/Home-Tp-bukkit)
+Feel free to contribute! : [Home-Tp-bukkit](https://github.com/aliooo36/Home-Tp-bukkit)
 
 ---
 
