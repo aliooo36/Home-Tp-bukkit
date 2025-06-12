@@ -1,0 +1,17 @@
+# HomeTp Plugin Configuration
+# Reload with /hometp reload
+
+# Enable or disable teleport messages
+# Set to false to make teleports silent
+teleport-messages: true
+
+# Teleport delay settings
+teleport-delay:
+  # Enable teleport delay (players must wait before teleporting)
+  enabled: false
+
+  # Delay in seconds before teleporting
+  seconds: 3
+
+  # Cancel teleport if player moves during countdown
+  cancel-on-move: true
